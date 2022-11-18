@@ -1,0 +1,42 @@
+/* GENERAL */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* headear */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    padding-left: 10px;
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* INDEX */
+
+
+/* CARACTERISTICAS */
+
+.mainAboutUs{
+    display: flex;
+}
+
+
+/* SOBRE NOSOTROS */

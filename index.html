@@ -4,49 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Forzador De Aire</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <ul>
-            <li>Inicio</li>
-            <li>Sobre nosotros</li>
-            <li>Caracteristicas</li>
-        </ul>
-    </header>
-    <body>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    </body>
+  <header class="header">
+    <a href="index.html"><img src="/assets/imagenes/ForzadorLogo.png" alt=""></a>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="/pages/SobreNosotros.html">Sobre nosotros</a></li>
+        <li><a href="/pages/caracteristicas.html">Caracteristicas</a></li>
+    </ul>
+</header>
+    <main>
+      <!-- Inicio carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/imagenes/Captura de pantalla 2022-11-18 000048.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imagenes/Captura de pantalla 2022-11-18 000118.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imagenes/Captura de pantalla_20221118_000137.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Fin Carousel -->
+      <br>
+      <!-- fade scroling down -->
+      <!-- El comienzo -->
+      <div data-aos="fade-down">
+        <h2 class=" d-flex justify-content-center">El Comienzo</h2>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class="w-50 ">Nuestro proyecto se formo en base a la pandemia, donde pudimos observar la necesidad de un dispositivo el cual nos permitiera estar en un aula con las ventanas cerradas teniendo aire puro. Es alli, cuando surgio nuestro proyecto.</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Desde un inicio se comenzo pensando en que el dispositivo sea accesible para el bolsillo de la gran mayoria, para aquellas personas que no necesariamente necesitan un dispotivo tan caro pero que aun asi quieren estar protegidas, porque nuestro dispotivo a parte de ser una medida de ayuda para uno poder respirar un aire mejor ademas puede ayudar a salvar vidas, pero eso lo aboremos mas adelante</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Una vez que teniamos nuestro enfoque, hacia quienes apuntabamos nuestro producto, como lo queriamos comercializar, y mas importante que quieriamos hacer, comenzamos con el desarrollo.</p>
+      </div>
+      <br>
+      <!-- El desarrollo -->
+      <div data-aos="fade-down">
+        <h2 class=" d-flex justify-content-center">El desarrollo</h2>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Todo el desarrollo comenzo con la idea principal, y con el elemento principal del mismo, el cual era el sensor, en este caso se utiliza un sensor relativamente economico, el cual para que funcione y poder hacer correctamente una medicion se le hace un remapeo al mismo, este primeramente tiene que ser precalentado, lo cual lo hace automaticamente en el programa cuando hace esperar por 90 segundos a la persona, antes de iniciar el funcionamiento.</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <div class=""><img class="" src="./assets/imagenes/Captura de pantalla 2022-11-18 014220.png" alt=""></div>
+        <div><img src="./assets/imagenes/Captura de pantalla 2022-11-18 014300.png" alt=""></div>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Una vez comprendimos esa parte del sensor, podemos pasar lo que seria el display a utilizar junto al bus I2C, utilizaremos un bus I2C debido a que es mucho mas sencillo, tenemos mayor manejo del display, y no necesitamos una pcb ni tampoco consumiriamos tantos puertos como pasaria si no tuvieramos el bus I2C.</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <img src="./assets/imagenes/arduino-i2c-lcd-componente.png" alt="">
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Luego pasando por la parte de ventiladores se buscaron los mejores, calida-precio, que ademas pueda ir con los transistores que colocamos. Para este caso utilizaremos unos ventiladores los cuales giran a altas RPM, que tienen un consumo bajo, y son capaces de mover el suficiente aire como para ingresarlo y ademas extraerlo.</p>
+      </div>
+      <div data-aos="fade-down">
+        <h2 class=" d-flex justify-content-center">El Software</h2>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Cuando hablamos de software, por decision del equipo de trabajo, decidiomos no hacer regulable los valores de PPM (particulas por millon de CO2) en donde van a funcionar el mismo, debido a que esto puede ser peligroso, ya que si no se sabe manipular correctamente y se colocan valores incorrectos estos pueden afectar gravemente el funcionamiento del mismo dispositivo.</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <div><img src="./assets/imagenes/Captura de pantalla 2022-11-18 021007.png" alt=""></div>
+        <div><img src="./assets/imagenes/Captura de pantalla 2022-11-18 021025.png" alt=""></div>
+        <div><img src="./assets/imagenes/Captura de pantalla 2022-11-18 021042.png" alt=""></div>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">En el primer caso, podemos ver que mientras los niveles se encuentren entre 350PPM y 499PPM este se va a encargar de no prender nada y avisarnos que el aire tiene una buena calidad, ademas es bastante intuitivo indicandonos lo mismo con una carita feliz para que todas las personas puedan entenderlo. </p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">En el segundo caso, podemos observar como ya los niveles son algo altos entre 500 y 799PPM, para estos casos se van a prender al maximo los ventiladores delantelos tanto de ingreso como de egreso del aire, que se prendan al maximo no significa que esta calidad del aire sea peligrosa sino que no es del todo buena, a su vez el LCD le va a indicar a la persona la cantidad de PPM en el momento y que la calidad del aire es "Moderada".</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Para el ultimo caso, este mismo va a ser un nivel peligroso, por lo tanto el dispositivo a traves de un buzzer (una alarma sonora), avisara que estar alli dentro no es buena idea, y encendera los ventiladores a su maxima potencia, esto lo hace para que las personas que se encuentren dentro del ambiente se retiren por el menor tiempo posible para asi poder realizar una limpieza del aire mucho mas rapido.</p>
+      </div>
+      <div data-aos="fade-down">
+        <h2 class=" d-flex justify-content-center">Ideas de mejoras que se nos ocurrieron</h2>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Algunas ideas de mejoras que se nos ocurrieron fue como poner un ionizador en la parte de entrada de aire el cual se encargue de generar iones negativos y ademas se nos ocurrio la idea de colocar diodos leds ultravioleta los cuales puedan desinfectar o eliminar algunas bacterias que se encuentren en el aire que es expulsado al exterior.</p>
+      </div>
+      <div data-aos="fade-down">
+        <h2 class=" d-flex justify-content-center">Costos</h2>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <p class=" w-50">Cuando hablamos de costos estos no son nada elevados para las funciones que cumple el mismo.</p>
+      </div>
+      <div class=" d-flex justify-content-center" data-aos="fade-right">
+        <div><img src="./assets/imagenes/Captura de pantalla 2022-11-18 022844.png" alt=""></div>
+      </div>
+    </main>
     <footer>
-
+      <ul class=" d-flex justify-content-between">
+        <a href="https://instagram.com/rrocioorrac_?igshid=YmMyMTA2M2Y="><li><i class="fa-brands fa-instagram"></i>Rocio Orrac</li></a>
+        <a href="https://instagram.com/saanti_ch?igshid=YmMyMTA2M2Y="><li><i class="fa-brands fa-instagram"></i>Chacon Santiago</li></a>
+        <a href="https://instagram.com/af_marcos?igshid=YmMyMTA2M2Y="><li><i class="fa-brands fa-instagram"></i>Auqui Marcos</li></a>
+        <a href="https://instagram.com/alex_lamas23?igshid=YmMyMTA2M2Y="><li><i class="fa-brands fa-instagram"></i>Lamas Alexander</li></a>
+      </ul>
     </footer>
+    
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
